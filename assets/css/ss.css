@@ -1,0 +1,76 @@
+.new-menu {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52,58,64,.5);
+  line-height: 50px;
+  z-index: 999;
+  transition: all .4s ease 0s;
+}
+
+.new-menu.active {
+  position: fixed;
+  left: 265px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52,58,64,.5);
+  line-height: 50px;
+  z-index: 999;
+  transition: all .4s ease 0s;
+}
+
+.new-navbar.active {
+  left: -250px;
+  width: 250px;
+  transition: all .4s ease 0s;
+}
+
+.new-navbar {
+  position: fixed;
+  z-index: 2;
+  left: -500px;
+  width: 250px;
+  height: 100%;
+  transition: all .4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #1d809f;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+}
+
+.new-drp {
+  position: fixed;
+  right: 25px;
+  top: 15px;
+  text-align: center;
+  color: #fff;
+  z-index: 999;
+  transition: all .4s ease 0s;
+}
+
+.new-drp2 {
+  position: fixed;
+  right: 130px;
+  top: 15px;
+  height: 38px;
+  text-align: center;
+  color: #fff;
+  background: #1d809f;
+  z-index: 999;
+  transition: all .4s ease 0s;
+}
+
+.table td, .table th {
+  padding: 6px 20px;
+  vertical-align: inherit;
+  border-top: 0px solid #dee2e6;
+  text-align: left;
+}
+
